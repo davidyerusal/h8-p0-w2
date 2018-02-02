@@ -1,0 +1,38 @@
+1. STORE "m" with 600 kg
+   STORE "a" with 2 m/s2
+   STORE "ΣF" without any value
+
+   CALCULATE "m" times "a"
+   SET "ΣF" value with calculation result
+
+   DISPLAY "ΣF"
+
+2.Dalam kalender Gregorian, tahun kabisat memiliki beberapa kriteria yaitu antara lain:
+
+  Jika tahun habis di bagi 4 dan tidak habis di bagi 100, dan
+  Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
+
+  IF "tahun habis dibagi 4" AND "tidak habis di bagi 100"
+
+  DISPLAY "tahun kabisat"
+
+  ELSE IF "habis di bagi 4", "habis di bagi 100" AND "habis di bagi 100"
+
+  DISPLAY "tahun kabisat"
+
+3. STORE "clothes" to 0
+
+   WHILE "clothes" <20
+    ADD "clothes" by 1
+
+   DISPLAY " mesin cuci nyala"
+
+4. STORE "jumlah siswa" to 0
+
+    WHILE "berkeliling kelas" < 40
+      ADD "jumlah siswa" by 1
+
+      IF "kuku panjang"
+        DO "hukum"
+      ELSE
+        DO "puji"  
