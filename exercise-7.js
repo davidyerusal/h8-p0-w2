@@ -10,9 +10,14 @@ while(i < rows1) {
 2.
 var rows2 = 5;
 var i= 0;
+var j= 0;
+var bintang= "";
 while(i < rows2) {
-
-  console.log('*****');
+ while(j < rows2) {
+  bintang += '*';
+  j++;
+ }
+  console.log(bintang);
   i++;
 }
 
